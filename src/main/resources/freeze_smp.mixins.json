@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.mcreator.freezesmp.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+	"FreezeSmpModRepairItemRecipeMixin"  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "mod_elements": [
+    {
+      "name": "IceShards",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_shard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/freezesmp/item/IceShardsItem.java",
+          "src/main/resources/assets/freeze_smp/models/item/ice_shard.json"
+        ]
+      }
+    },
+    {
+      "name": "IceShardRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_shard_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/freeze_smp/recipes/ice_shard_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.freeze_smp.ice_shard": "Ice Shard"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "freeze_smp",
+    "modName": "Freeze SMP",
+    "version": "1.0.0",
+    "author": "jdnis, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.freezesmp",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
